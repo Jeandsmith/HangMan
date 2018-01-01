@@ -68,12 +68,15 @@ int main() {
 			display_hanged_man();
 		}
 
-		puts("Play again?");
-		char ans = getc(stdin);
-		std::cin.ignore();
-		if (tolower(ans) == 'y') {
-			goto start;
-		} else break;
+		if (std::string(word_mask) == std::string(word)
+		    || player_lives == 0){
+			puts("Play again?");
+			char ans = getc(stdin);
+			std::cin.ignore();
+			if (tolower(ans) == 'y') {
+				goto start;
+			} else break;
+		}
 	}
 
 	return 0;
