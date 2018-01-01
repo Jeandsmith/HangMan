@@ -1,0 +1,3 @@
+/home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-release/CMakeFiles/HangManGame.dir
