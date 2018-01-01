@@ -48,10 +48,10 @@ RM = /home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeandsmith/CLionProjects/HangManGame
+CMAKE_SOURCE_DIR = /home/jeandsmith/CLionProjects/HangMan/HangManGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeandsmith/CLionProjects/HangManGame/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/CLionProjects/HangManGame/cmake-build-debug/CMakeFiles /home/jeandsmith/CLionProjects/HangManGame/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-debug/CMakeFiles /home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/CLionProjects/HangManGame/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

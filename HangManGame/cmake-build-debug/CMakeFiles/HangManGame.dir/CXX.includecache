@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jeandsmith/CLionProjects/HangManGame/main.cpp
+/home/jeandsmith/CLionProjects/HangMan/HangManGame/main.cpp
 iostream
 -
 fstream
