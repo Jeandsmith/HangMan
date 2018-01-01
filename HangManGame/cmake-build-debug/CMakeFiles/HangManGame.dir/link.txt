@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HangManGame.dir/main.cpp.o  -o HangManGame 
