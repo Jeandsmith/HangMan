@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/james/Documents/HangMan/HangManGame/main.cpp
+iostream
+-
+cstdio
+-
+fstream
+-
+cstdint
+-
+memory
+-
+typeinfo
+-
+

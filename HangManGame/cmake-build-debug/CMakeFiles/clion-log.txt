@@ -1,4 +1,0 @@
-/home/jeandsmith/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jeandsmith/CLionProjects/HangMan/HangManGame
--- Configuring done
--- Generating done
--- Build files have been written to: /home/jeandsmith/CLionProjects/HangMan/HangManGame/cmake-build-debug

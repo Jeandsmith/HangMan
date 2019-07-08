@@ -10,14 +10,18 @@ void reset_buffer();
 const char *pick_word();
 const int32_t word_length(const char *c);
 const void display_hanged_man();
+void display_game_title();
 
 int main() {
+
+	display_game_title();
+
 	srand(static_cast<uint32_t>(time(nullptr)));
 
 	start:
 	log("HANGMAN \n");
 
-	const char *word{pick_word()};
+	const char * word{pick_word()};
 	const int32_t CHAR_BUFFER{word_length(word) + 1};
 	char word_mask[CHAR_BUFFER];
 	word_mask[CHAR_BUFFER] = '\0';
@@ -52,7 +56,7 @@ int main() {
 					continue;
 				}
 				word_mask[c] = word[c];
-				printf("Word:  %s \n", word_mask);
+				// printf("Word:  %s \n", word_mask);
 				reset_buffer();
 				break;
 			}
@@ -101,6 +105,9 @@ void display_game_title() {
 		}
 		fclose(file);
 	}
+
+	printf("Press Any Key To Continue\n");
+	std::cin.get();
 
 }
 

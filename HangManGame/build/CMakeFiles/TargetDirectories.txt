@@ -1,0 +1,3 @@
+/home/james/Documents/HangMan/HangManGame/build/CMakeFiles/rebuild_cache.dir
+/home/james/Documents/HangMan/HangManGame/build/CMakeFiles/HangManGame.dir
+/home/james/Documents/HangMan/HangManGame/build/CMakeFiles/edit_cache.dir
